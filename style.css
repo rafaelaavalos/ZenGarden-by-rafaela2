@@ -1,0 +1,123 @@
+/* base CSS */
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html, body {
+  padding: 0;
+  margin: 0;  
+}
+
+body {
+  color: #ffff;
+  background: #C4C4C4;
+  font-family: 'Signika', sans-serif;
+  font-size: 70%;
+}
+
+yy
+a {
+  color: #0d8ba1;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  text-decoration: none;
+}
+  a:visited {
+    color: #1a5952;
+  }
+  a:hover, a:focus {
+    color: #0599c2;
+    text-decoration: underline;
+  }
+abbr {
+  border: none;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+}
+header {
+  height: 290px;
+  padding: 20px 0 70px 0;
+
+  background: #2d6360 50% 0 url(huntington.jpg) no-repeat; /* old IE fallback */
+
+  background-attachment: fixed, fixed, fixed, scroll;
+  background-image: url(contours.png), url(noise.png), url(gridlines.png), url(huntington.jpg);
+  background-position: 0 0, 0 0, -5px -25px, 0 50%;
+  background-repeat: repeat, repeat, repeat, no-repeat;
+  background-size: auto, auto, auto, cover;
+  text-align: center;
+}
+
+
+h1 {
+  position: right;
+  font-family: 'Signika', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 2em;
+}
+
+/*caja gris1*/
+h1{
+display: inline-block;
+  top: 0px;
+  content: "";
+  width: 971px;
+  height: 187px;
+  margin-left: 0em;
+  margin-top: 0em;
+  margin-right:0em;
+  background: #808080;
+  background-size: 100%;
+  opacity: 0.6;
+  }
+
+img {
+  background-size: cover;
+  background-position: left;
+  height: 300px;  
+  float: left;
+  margin-left: 3em;
+}
+
+h2{
+  position: left;
+  font-family: 'Signika', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-left: 1.2em;
+}
+
+p{
+  margin-left:2.5em;
+ font-family: 'Signika', sans-serif;
+  font-size: 15px;
+  margin-right: 50em;  
+}
+
+h3{
+    margin-left: 14em;
+  font-size: 20px
+  }
+
+p1{
+  margin-left: 13.5em;
+}
+
+img3 {
+  background-size: cover;
+  background-position: left;
+  height: 315px;  
+  float: left;
+  margin-left: 3em;
+}
+
+img{
+    height: 315px;  
+}
+
+
